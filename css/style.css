@@ -71,7 +71,7 @@ button {
 .section1 {
     display:flex;
     justify-content:space-evenly;
-    background-color:#fa82a7;
+    color:#fa82a7;
 }
 
 /* .section1>.block {
