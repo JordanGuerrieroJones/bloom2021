@@ -1,0 +1,110 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+body {
+    margin:0;
+    padding:0;
+}
+
+
+/* Header  */
+header {
+    background-color: #222222;
+    color: seashell;
+    font-family: 'Cedarville Cursive', cursive;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+header .SocialMedia {
+    float: right;
+    padding: 0px;
+    margin:0px;
+    position:relative;
+    top: -40px;
+    padding-right: 20px;
+}
+
+.block-block1 {
+    background: rgb(207,149,185);
+    background: radial-gradient(circle, rgba(207,149,185,1) 0%, rgba(227,146,197,1) 12%, rgba(212,127,185,1) 35%, rgba(246,120,210,1) 55%, rgba(233,160,208,1) 100%);
+    padding-top:30px;
+    padding-bottom: 100px;
+    color: seashell;
+    font-family: monospace;
+    height:fit-content;
+    width: fit-content;
+}
+
+
+.laptop {
+    float: right;
+    width:300px;
+    height: 250px;
+    width: 400px;
+}
+
+button {
+    margin-top: 100px;
+    color: #fff;
+    background-color: #222222;
+    text-decoration: none;
+    color: seashell;
+    border-radius: 6px;
+    padding:7px;
+}
+
+
+/* Tri class portion  */
+/* .block-block4, .block-block5, .block-block6 {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-basis: calc(100/3); */
+
+.section1 {
+    display:flex;
+    justify-content:space-evenly;
+    background-color:#fa82a7;
+}
+
+/* .section1>.block {
+    flex: 1 1 33%;
+} */
+
+
+
+    
+    
+/* Line Break */
+hr {
+    background-color:#fa82a7;
+    height: 5px;
+}
+
+/* Comments, products, and clients */
+
+.Blockington {
+    display: flex;
+    flex-direction: row;
+    flex:right;
+    gap:10px;
+  }
+
+
+
+/* Footer  */
+footer {
+    margin-bottom:0;
+    padding: 10px;
+    color: seashell;
+    background-color: #222222;
+}
+
+
